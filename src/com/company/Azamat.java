@@ -13,13 +13,13 @@ package com.company;
 
 
 
-  void Works () {
+ public void Works () {
       System.out.println(battrey +" works up to 20 hours");
   }
-  void switchOn() {
+ public  void switchOn() {
     System.out.println(name + " is switching on");
   }
-  void switchingOff() {
+ public void switchingOff() {
     System.out.println(name + " is switching off");
   }
 

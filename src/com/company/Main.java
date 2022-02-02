@@ -55,84 +55,94 @@ public class Main {
 
 
 
-        Computer laptop = new Computer();
-        laptop.name = "MacBook Pro";
-        laptop.brand = "Apple";
-        laptop.screen = "Retina";
-        laptop.colour = "Space Gray";
-        laptop.weight = 1.2f;
-        laptop.ram = 16;
-        laptop.rom = 512;
-        laptop.battrey = 20;
+//        Computer laptop = new Computer();
+//        laptop.name = "MacBook Pro";
+//        laptop.brand = "Apple";
+//        laptop.screen = "Retina";
+//        laptop.colour = "Space Gray";
+//        laptop.weight = 1.2f;
+//        laptop.ram = 16;
+//        laptop.rom = 512;
+//        laptop.battrey = 20;
+//
+//        Computer HP = new Computer();
+//        HP.name = "Pavillion";
+//        HP.brand = "HP";
+//        HP.screen = "LCD";
+//        HP.colour = "Silver";
+//        HP.weight = 1.8f;
+//        HP.ram = 8;
+//        HP.rom = 1000;
+//        HP.battrey = 12;
+//
+//
+//        Computer Asus = new Computer();
+//        Asus.name = "Predator";
+//        Asus.brand = "Asus";
+//        Asus.screen = "LCD";
+//        Asus.colour = "Black";
+//        Asus.weight = 2.2f;
+//        Asus.ram = 32;
+//        Asus.rom = 2000;
+//        Asus.battrey = 8;
+//
+//
+//        Computer Lenovo = new Computer();
+//        Lenovo.name = "Latitude";
+//        Lenovo.brand = "lenovo";
+//        Lenovo.screen = "LeD";
+//        Lenovo.colour = "Black";
+//        Lenovo.weight = 1.8f;
+//        Lenovo.ram = 12;
+//        Lenovo.rom = 500;
+//        Lenovo.battrey = 10;
+//
+//        Computer Acer = new Computer();
+//        Acer.name = "Alien";
+//        Acer.brand = "Acer";
+//        Acer.screen = "LCD";
+//        Acer.colour = "Blue";
+//        Acer.weight = 2.0f;
+//        Acer.ram = 8;
+//        Acer.rom = 750;
+//        Acer.battrey = 9;
+//
+//
+//        laptop.Works();
+//        HP.Works();
+//        Asus.Works();
+//        Acer.Works();
+//        Lenovo.Works();
+//
+//        laptop.switchOn();
+//        HP.switchOn();
+//        Asus.switchOn();
+//        Acer.switchOn();
+//        Lenovo.switchOn();
+//
+//        laptop.switchingOff();
+//        HP.switchingOff();
+//        Asus.switchingOff();
+//        Acer.switchingOff();
+//        Lenovo.switchingOff();
+//
+//
+//        Peaksoft peaksoft = new Peaksoft();
+//
+//        String[] rooms = {"FACEBOOK","APPLE","SPACEX","STARLINK","CAFETERIA"};
+//        peaksoft.rooms = rooms;
+//
+//        peaksoft.showRooms();
 
-        Computer HP = new Computer();
-        HP.name = "Pavillion";
-        HP.brand = "HP";
-        HP.screen = "LCD";
-        HP.colour = "Silver";
-        HP.weight = 1.8f;
-        HP.ram = 8;
-        HP.rom = 1000;
-        HP.battrey = 12;
 
 
-        Computer Asus = new Computer();
-        Asus.name = "Predator";
-        Asus.brand = "Asus";
-        Asus.screen = "LCD";
-        Asus.colour = "Black";
-        Asus.weight = 2.2f;
-        Asus.ram = 32;
-        Asus.rom = 2000;
-        Asus.battrey = 8;
+        UchBurchtuk uchBurchtuk = new UchBurchtuk();
+        uchBurchtuk.a = 0;
+        uchBurchtuk.b = 10;
+        uchBurchtuk.c = 6;
+        uchBurchtuk.area();
 
 
-        Computer Lenovo = new Computer();
-        Lenovo.name = "Latitude";
-        Lenovo.brand = "lenovo";
-        Lenovo.screen = "LeD";
-        Lenovo.colour = "Black";
-        Lenovo.weight = 1.8f;
-        Lenovo.ram = 12;
-        Lenovo.rom = 500;
-        Lenovo.battrey = 10;
-
-        Computer Acer = new Computer();
-        Acer.name = "Alien";
-        Acer.brand = "Acer";
-        Acer.screen = "LCD";
-        Acer.colour = "Blue";
-        Acer.weight = 2.0f;
-        Acer.ram = 8;
-        Acer.rom = 750;
-        Acer.battrey = 9;
-
-
-        laptop.Works();
-        HP.Works();
-        Asus.Works();
-        Acer.Works();
-        Lenovo.Works();
-
-        laptop.switchOn();
-        HP.switchOn();
-        Asus.switchOn();
-        Acer.switchOn();
-        Lenovo.switchOn();
-
-        laptop.switchingOff();
-        HP.switchingOff();
-        Asus.switchingOff();
-        Acer.switchingOff();
-        Lenovo.switchingOff();
-
-
-        Peaksoft peaksoft = new Peaksoft();
-
-        String[] rooms = {"FACEBOOK","APPLE","SPACEX","STARLINK","CAFETERIA"};
-        peaksoft.rooms = rooms;
-
-        peaksoft.showRooms();
 
 
 
