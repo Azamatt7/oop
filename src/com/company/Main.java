@@ -146,6 +146,16 @@ public class Main {
 
 
 
+        UchBurchtuk uchBurchtuk = new UchBurchtuk();
+        uchBurchtuk.a = 10;
+        uchBurchtuk.b = 10;
+        uchBurchtuk.c = 6;
+        uchBurchtuk.area();
+
+
+
+
+
 
 
 
