@@ -55,77 +55,55 @@ public class Main {
 
 
 
-//        Computer laptop = new Computer();
-//        laptop.name = "MacBook Pro";
-//        laptop.brand = "Apple";
-//        laptop.screen = "Retina";
-//        laptop.colour = "Space Gray";
-//        laptop.weight = 1.2f;
-//        laptop.ram = 16;
-//        laptop.rom = 512;
-//        laptop.battrey = 20;
-//
-//        Computer HP = new Computer();
-//        HP.name = "Pavillion";
-//        HP.brand = "HP";
-//        HP.screen = "LCD";
-//        HP.colour = "Silver";
-//        HP.weight = 1.8f;
-//        HP.ram = 8;
-//        HP.rom = 1000;
-//        HP.battrey = 12;
-//
-//
-//        Computer Asus = new Computer();
-//        Asus.name = "Predator";
-//        Asus.brand = "Asus";
-//        Asus.screen = "LCD";
-//        Asus.colour = "Black";
-//        Asus.weight = 2.2f;
-//        Asus.ram = 32;
-//        Asus.rom = 2000;
-//        Asus.battrey = 8;
-//
-//
-//        Computer Lenovo = new Computer();
-//        Lenovo.name = "Latitude";
-//        Lenovo.brand = "lenovo";
-//        Lenovo.screen = "LeD";
-//        Lenovo.colour = "Black";
-//        Lenovo.weight = 1.8f;
-//        Lenovo.ram = 12;
-//        Lenovo.rom = 500;
-//        Lenovo.battrey = 10;
-//
-//        Computer Acer = new Computer();
-//        Acer.name = "Alien";
-//        Acer.brand = "Acer";
-//        Acer.screen = "LCD";
-//        Acer.colour = "Blue";
-//        Acer.weight = 2.0f;
-//        Acer.ram = 8;
-//        Acer.rom = 750;
-//        Acer.battrey = 9;
-//
-//
-//        laptop.Works();
-//        HP.Works();
-//        Asus.Works();
-//        Acer.Works();
-//        Lenovo.Works();
-//
-//        laptop.switchOn();
-//        HP.switchOn();
-//        Asus.switchOn();
-//        Acer.switchOn();
-//        Lenovo.switchOn();
-//
-//        laptop.switchingOff();
-//        HP.switchingOff();
-//        Asus.switchingOff();
-//        Acer.switchingOff();
-//        Lenovo.switchingOff();
-//
+        Computer laptop = new Computer();
+        laptop.setName("MacBook Pro");
+        laptop.setBrand("Apple");
+        laptop.setScreen("Retina");
+        laptop.setColour("Space Gray");
+        laptop.setWeight(1.2f);
+        laptop.setRam(16);
+        laptop.setRom(512);
+        laptop.setBattery((byte)20);
+
+        Computer HP = new Computer();
+        HP.setName("Pavillion");
+        HP.setBrand("HP");
+        HP.setScreen("LCD");
+        HP.setColour("Silver");
+        HP.setWeight(1.8f);
+        HP.setRam(8);
+        HP.setRom(1000);
+        HP.setBattery((byte)12);
+
+
+        Computer Asus = new Computer();
+        Asus.setName("Predator");
+        Asus.setBrand("Asus");
+        Asus.setScreen("LCD");
+        Asus.setColour("Black");
+        Asus.setWeight(2.2f);
+        Asus.setRam(32);
+        Asus.setRom(2000);
+        Asus.setBattery((byte) 8);
+
+
+        Computer Lenovo = new Computer();
+        Lenovo.setName("Latitude");
+        Lenovo.setBrand("lenovo");
+        Lenovo.setScreen("LeD");
+        Lenovo.setColour("Black");
+        Lenovo.setWeight(1.8f);
+        Lenovo.setRam(12);
+        Lenovo.setRom(500);
+        Lenovo.setBattery((byte)10);
+
+
+        Lenovo.showInfo();
+        HP.showInfo();
+        Asus.showInfo();
+        laptop.showInfo();
+
+
 //
 //        Peaksoft peaksoft = new Peaksoft();
 //
@@ -136,11 +114,16 @@ public class Main {
 
 
 
-        UchBurchtuk uchBurchtuk = new UchBurchtuk();
-        uchBurchtuk.a = 0;
-        uchBurchtuk.b = 10;
-        uchBurchtuk.c = 6;
-        uchBurchtuk.area();
+//        UchBurchtuk uchBurchtuk = new UchBurchtuk();
+//        uchBurchtuk.a = 0;
+//        uchBurchtuk.b = 10;
+//        uchBurchtuk.c = 6;
+//        uchBurchtuk.area();
+
+
+
+
+
 
 
 
